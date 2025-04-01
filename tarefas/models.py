@@ -1,7 +1,7 @@
 from django.db import models
 
 # Create your models here.
-class TaredasModel(models.Model):
+class TarefaModel(models.Model):
     nome = models.CharField(max_length=100)
     descricao = models.TextField(null=True, blank=True)
     completo = models.BooleanField(default=False)
